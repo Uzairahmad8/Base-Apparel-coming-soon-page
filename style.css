@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+
+  background-color: #f4d9d961;
+}
+
+.reverse {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
+.contentBox {
+  max-width: 830px;
+  margin: 0 auto;
+  padding-top: 75px;
+  /* border: 3px solid red; */
+}
+
+.content {
+  max-width: 445px;
+  width: 100%;
+  /* border: 2px solid green; */
+}
+
+.information {
+  margin-top: 136px;
+}
+
+.announcment {
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  font-weight: 500;
+}
+
+.header {
+  position: absolute;
+  top: 75px;
+  left: 110px;
+}
+
+span {
+  color: #ce9898;
+  font-weight: 300;
+}
+
+.informationText {
+  font-size: 16px;
+  margin: 32px auto 40px auto;
+  color: #ce9898;
+  line-height: 28px;
+}
+
+#email {
+  max-width: 445px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 15px 32px;
+  font-size: 20px;
+}
+
+#email::placeholder {
+  color: #ce9898;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputButton {
+  background-color: #ffb2b2;
+  padding: 15px 30px;
+  border-radius: 24px;
+  border: none;
+  position: absolute;
+  right: -2px;
+  bottom: 0;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.rightArrow {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.imgBox {
+  max-width: 610px;
+  width: 100%;
+}
+
+.userImg {
+  width: 100%;
+}
+
+@media (max-width: 1130px) {
+  .contentBox {
+    padding: 64px 32px 92px 32px;
+    width: 100%;
+    max-width: 100%;
+    text-align: -webkit-center;
+  }
+
+  .header {
+    position: static;
+    padding: 32px;
+  }
+
+  .information {
+    margin-top: 12px;
+  }
+
+  .content {
+    max-width: 311px;
+  }
+
+  .imgBox {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .announcment {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+
+  .informationText {
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+  }
+
+  #email {
+    max-width: 311px;
+  }
+}
+
+@media (max-width: 370px) {
+  .information {
+    margin-top: 12px;
+  }
+
+  .announcment {
+    font-size: 26px;
+    letter-spacing: 10px;
+  }
+}
