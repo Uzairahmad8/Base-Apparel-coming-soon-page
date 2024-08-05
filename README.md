@@ -1,3 +1,3 @@
 # Base-Apparel-coming-soon-page
 
-https://baseapparelcomingsoon08.netlify.app
+Live Preview: [Base Apparel Coming Soon Page](https://baseapparelcomingsoon08.netlify.app)
